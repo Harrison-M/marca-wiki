@@ -7,16 +7,16 @@ Based on the following two links:
 
 Like Overriding the FOS user bundle, create a new bundle register the parent (the bundle you want to override) in the core bundle php file.  For example, this Authenticate Bundle overrides the FOSUserBundle:
 
-> <?php
-> namespace Marca\AuthenticateBundle;
-> use Symfony\Component\HttpKernel\Bundle\Bundle;
-> class MarcaAuthenticateBundle extends Bundle
-> {
->     public function getParent()
->     {
->         return 'FOSUserBundle';
->     }
-> }
+ <?php
+ namespace Marca\AuthenticateBundle;
+ use Symfony\Component\HttpKernel\Bundle\Bundle;
+ class MarcaAuthenticateBundle extends Bundle
+ {
+     public function getParent()
+     {
+         return 'FOSUserBundle';
+     }
+ }
 
 Once done, you can override controllers or twig files by duplicating the file in the new bundle and then tweaking them as needed (they must be in the same place in the new bundle as they are in the original bundle).
 
