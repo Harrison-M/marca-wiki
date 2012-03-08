@@ -24,18 +24,18 @@ For overriding the Crud generator, Marca uses a Generator Bundle (src/GeneratorB
 We are overriding the crud generators to create our own displays including layout and display code (elements and css etc).  
 The command line is overridden somewhat differently.  Once again, copy the file from the original bundle to the new bundle and rename the function and extend it.  For example, in the Command/MyDoctrineCrudCommand.php file in the GeneratorBundle:
 
-> class MyDoctrineCrudCommand extends \Sensio\Bundle\GeneratorBundle\Command\GenerateDoctrineCrudCommand
-> {
->     protected function configure()
->     {
->         parent::configure();
->         $this->setName('mydoctrine:generate:crud');
->     }
+ class MyDoctrineCrudCommand extends \Sensio\Bundle\GeneratorBundle\Command\GenerateDoctrineCrudCommand
+ {
+     protected function configure()
+     {
+         parent::configure();
+         $this->setName('mydoctrine:generate:crud');
+     }
 
->     protected function getGenerator()
->     {
->         $generator = new DoctrineCrudGenerator($this->getContainer()->get('filesystem'), __DIR__.'/../Resources/skeleton/crud');
->         $this->setGenerator($generator);
->         return parent::getGenerator();
->     }
-> }
+     protected function getGenerator()
+     {
+         $generator = new DoctrineCrudGenerator($this->getContainer()->get('filesystem'), __DIR__.'/../Resources/skeleton/crud');
+         $this->setGenerator($generator);
+         return parent::getGenerator();
+     }
+ }
