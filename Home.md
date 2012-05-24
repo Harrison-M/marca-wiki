@@ -1,6 +1,10 @@
 Notes on Development
+Add any notes on the dev process here with date and name.  New bits on top.
 
-by Andy 5/24
+***
+
+
+5/24/2012 by Andy
 * Refactored "project" and "getProject" in \CourseBundle\Course.php" to "projects" and "getProjects" respectively (they deal with the entire collection of projects for a course)
 
 * The delete function isn't checking for a user authentication token. Is it secure? I'm still a little fuzzy on where we need to check for that. 
