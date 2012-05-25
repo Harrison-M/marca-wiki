@@ -1,4 +1,3 @@
-## Notes on Development
 **Add any notes on the dev process here with date and name.  New bits on top.**
 
 ***
