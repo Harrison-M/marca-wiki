@@ -1,7 +1,8 @@
 **Add any notes on the dev process here with date and name.  New bits on top.**
 
 ***
-6/17/2012 by Andy SHA:21f6c745e83402564c0817b11db7bf9bc8c560ec
+6/17/2012 by Andy SHA: 21f6c745e83402564c0817b11db7bf9bc8c560ec
+
 *In this commit I introduce the restrictAccessTo function in the base controller. This function, which only works in the course context (route must include a {courseid}) does the following: 
 ** checks to see if the current user has one of the course roles passed to it in an array
 ** throws a access denied exception if the user does not have one of the passed roles
