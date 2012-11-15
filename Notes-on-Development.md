@@ -1,4 +1,8 @@
 **Add any notes on the dev process here with date and name.  New bits on top.**
+***
+11/15/2012 by Ron
+Now using the spectrum jquery colorpicker
+https://github.com/bgrins/spectrum
 
 ***
 6/17/2012 by Andy (commit https://github.com/calliopeinitiative/marca/commit/21f6c745e83402564c0817b11db7bf9bc8c560ec)
