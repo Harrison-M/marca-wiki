@@ -36,7 +36,7 @@ $('.edit_{{file.id}}').click(function(){
 });
 ```
 
-
-_**Change the naming convention in the action.**_
-_**Create an id'd url instead of the url listing itself**_
-_**Write the jquery to load that in the existing modal.  **_
+IN REVIEW
+1. _**Change the naming convention in the action.**_
+2. _**Create an id'd url instead of the url listing itself**_
+3. _**Write the jquery to load that in the existing modal.  **_
