@@ -14,6 +14,7 @@ Add this div in the end to allow us to specify where we are and what we're worki
 ```{# Modal #}
 <div id="file_modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">     
 </div>```
+
  On line 85, you'll see how we have a class for the edit listing :
 
 ```{% if file.isOwner(app.user.username) %}
@@ -23,5 +24,10 @@ In the jquery (line 13), you'll see the jquery click function:
 
 ```$('.edit_{{file.id}}').click(function(){
   $('#file_modal').load('{{ course_path('file_edit_modal', { 'id': file.id, 'resource': app.request.get('resource'), 'tag': app.request.get('tag') }) }}');
-  $('#file_modal').modal();```
-});
+  $('#file_modal').modal();
+});```
+
+
+_**Change the naming convention in the action.**_
+_**Create an id'd url instead of the url listing itself**_
+_**Write the jquery to load that in the existing modal.  **_
