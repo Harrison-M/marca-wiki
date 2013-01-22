@@ -9,6 +9,9 @@ Add the modal to the route: @Route("/{courseid}/{resource}/{tag}/{type}/new_moda
 Delete what we don't need in the modal (but - for example, in files we will need the returns because we need to know where to go when we're done).  
 
 * in Marca/FileBundle/Resources/views/File/index.html.twig  
+(Save-as the file that you're working on (i.e. new.html.twig) to new_modal.html.twig, but keep the new.html.twig b/c we'll still need it.  On the new_modal, we can delete the extend layout tag and the call on the javascript files.  See new_modal.html.twig in journal for example)
+
+
 Add this div in the end to allow us to specify where we are and what we're working
 
 ```
