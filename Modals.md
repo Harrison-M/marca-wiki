@@ -11,9 +11,11 @@ Delete what we don't need in the modal (but - for example, in files we will need
 * in Marca/FileBundle/Resources/views/File/index.html.twig  
 Add this div in the end to allow us to specify where we are and what we're working
 
-```{# Modal #}
+```
+{# Modal #}
 <div id="file_modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">     
-</div>```
+</div>
+```
 
  On line 85, you'll see how we have a class for the edit listing :
 
