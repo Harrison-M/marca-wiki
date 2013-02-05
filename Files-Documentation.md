@@ -42,5 +42,6 @@ Editing a review doc is no different than editing any other doc.  There is no ed
 A flexible SaveAs (like Review but with an editable File entity).
 Delete Review
 Good UI for files with related entities
+Cleanup controllers
 
 
