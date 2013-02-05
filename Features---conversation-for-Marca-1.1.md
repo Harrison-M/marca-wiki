@@ -1,3 +1,5 @@
+***
+
 2/5/2012
 
 Let's use this space (and I'm mostly talking to myself here) to stash major development ideas for the next version of Marca, which I'm completely arbitrarily calling 1.1 (with the idea being that our current beta 0.something and our first non-beta release will be 1.0.
