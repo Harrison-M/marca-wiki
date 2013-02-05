@@ -43,15 +43,22 @@ Editing a review doc is no different than editing any other doc.  There is no ed
 
 * Smart way to view peer review
 * Create Review only on others' docs
-* Instructor Grade Doc with Graded label (and notifications)
-* Lock editing of graded doc
+
 * Autosave for Review and SaveAs
 * A flexible SaveAs (like Review but with an editable File entity).
 * Delete Review
 * Good UI for files with related entities
 * Cleanup controllers
+* batch functions: release
+
+Graded Doc
+* Instructor Grade Doc with Graded label (and notifications)
+* Lock editing of graded doc
+* insert rubric (course based but easily changeable)
+* feed essays next essay >
+* word count
+
 
 ## To be discussed
 Autosave process
-
 
