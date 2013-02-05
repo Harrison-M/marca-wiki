@@ -11,6 +11,8 @@ a link is created with only a file entity, but it uses the form type: LinkType.
 
 A doc is created with the form type DocType; in addition a doc entity is created.
 
+add note on createAction
+
 Uploads are created with the uploadAction in the FileController.  The action creates a file entity with the UploadType and uses the Vich Uploader Bundle (annotations in the File entity)
 
 ***
