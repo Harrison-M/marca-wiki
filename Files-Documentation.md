@@ -35,8 +35,12 @@ A Review duplicates the doc and creates a special file entity that is the child 
 
 Editing a review doc is no different than editing any other doc.  There is no editing of the Review File entity. 
 
+***
 
+## To Be Done
 
-
+A flexible SaveAs (like Review but with an editable File entity).
+Delete Review
+Good UI for files with related entities
 
 
