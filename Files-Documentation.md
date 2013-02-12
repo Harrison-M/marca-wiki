@@ -37,6 +37,8 @@ A Review duplicates the doc and creates a special file entity that is the child 
 
 Editing a review doc is no different than editing any other doc.  There is no editing of the Review File entity. 
 
+DELETING a "parent" doc (one that has a review associated).  We think the best practice is to change the listing for the doc to "deleted" and keep the association.  
+
 ***
 
 ## To Be Done
@@ -47,6 +49,8 @@ Editing a review doc is no different than editing any other doc.  There is no ed
 * Autosave for Review and SaveAs
 * A flexible SaveAs (like Review but with an editable File entity).
 * Delete Review
+* Add the functionality for deleting a parent doc as described above
+* A review should appear in the reviewers docs with the parent doc attached
 * Good UI for files with related entities
 * Cleanup controllers
 * batch functions: release
