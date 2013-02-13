@@ -5,7 +5,7 @@ Song lyrics (document text)
 
 Selection brings up "Explain" bubble (Insert note / markup)
 ![Screen 2](https://f.cloud.github.com/assets/867379/153485/ae700da8-75f9-11e2-9ff9-ebefd85afea0.png)
-This design is helpful because the "Explain" bubble appears right at the point you've stopped highlighting. For us, I think that the Explain bubble could contain two buttons, Insert Note and Add Markup
+This design is helpful because the "Explain" bubble appears right at the point you've stopped highlighting, meaning you don't have to move your cursor and find the insert note dialogue. For us, I think that the Explain bubble could contain two buttons, Insert Note and Add Markup
 
 Clicking explain brings up modal dialogue
 ![Screen 3](https://f.cloud.github.com/assets/867379/153484/ae6f5bce-75f9-11e2-8880-f74d295c6524.png)
