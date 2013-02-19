@@ -56,6 +56,11 @@ Graded Doc
 * insert rubric (course based but easily changeable)
 * feed essays next essay >
 * word count
+(Perhaps using this plugin?
+
+http://www.n7studios.co.uk/2010/03/01/ckeditor-word-count-plugin/
+
+Apparently can be a bit imprecise, but I think I slightly imprecise count beats no count at all.)
 
 
 ## To be discussed
