@@ -43,7 +43,6 @@ DELETING a "parent" doc (one that has a review associated).  We think the best p
 
 ## To Be Done
 
-* Smart way to view peer review (clickable label to find peer reviews (your own and others)) - A review should appear in the reviewer's docs with the parent doc attached
 * A flexible SaveAs (like Review but with an editable File entity) with autosave.
 * Add the functionality for deleting a parent doc as described above
 * Good UI for files with related entities
