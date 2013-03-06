@@ -1,4 +1,4 @@
-We are using the wkhtmltopdf libraris for conversion of html to pdf of documents.
+We are using the wkhtmltopdf libraries for conversion of html to pdf of documents.
 
 At this time, the library must be install manually based on architecture.  You will find the libraries at
 [http://code.google.com/p/wkhtmltopdf/](http://code.google.com/p/wkhtmltopdf/).  Select the appropriate library for your architecture and install in an appropriate place (currently we are using /usr/local/bin/).
