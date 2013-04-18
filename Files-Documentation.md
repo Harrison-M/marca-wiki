@@ -43,7 +43,6 @@ DELETING a "parent" doc (one that has a review associated).  We think the best p
 
 ## To Be Done
 
-* A flexible SaveAs (like Review but with an editable File entity) with autosave.
 * Add the functionality for deleting a parent doc as described above
 * Good UI for files with related entities
 * Cleanup controllers
@@ -54,12 +53,6 @@ Graded Doc
 * Lock editing of graded doc
 * insert rubric (course based but easily changeable)
 * feed essays next essay >
-* word count
-(Perhaps using this plugin?
-
-http://www.n7studios.co.uk/2010/03/01/ckeditor-word-count-plugin/
-
-Apparently can be a bit imprecise, but I think I slightly imprecise count beats no count at all.)
 
 
 ## To be discussed
