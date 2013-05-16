@@ -6,7 +6,7 @@ The authenication will be "chained" which means that if the ldap auth fails it w
 
 fr3d_ldap bundle require the php ext-ldap:  
 
-sudo yum install php-ldap on RedHat
+    sudo yum install php-ldap on RedHat
 
 There are two additions to the parameters.yml file with this install:
 
