@@ -5,7 +5,8 @@ To use the LDAP authenticate, copy the security_ldap.yml to security.yml
 The authenication will be "chained" which means that if the ldap auth fails it will roll over to the fosuserbundle for authentication.
 
 fr3d_ldap bundle require the php ext-ldap:
- on RedHat  
+ 
+(on RedHat) 
 
     sudo yum install php-ldap
 
