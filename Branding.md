@@ -1,0 +1,1 @@
+Currently, there is an app_name in parameters.yml that will define the application's display name.
