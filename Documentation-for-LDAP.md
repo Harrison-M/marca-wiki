@@ -14,3 +14,5 @@ There are two additions to the parameters.yml file with this install:
 
     ldap_host:         xxx.xxx.xxx
     ldap_port:         xxx
+
+There is also a twig global named ldap_auth (yes|no) that will hide the the Forgot Password? and the Change Password.
