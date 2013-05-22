@@ -10,6 +10,10 @@ fr3d_ldap bundle require the php ext-ldap:
 
     sudo yum install php-ldap
 
+(on Ubuntu/Debian)
+
+    sudo apt-get install php5-ldap
+
 There are three additions to the parameters.yml file with this install:
 
     ldap:              Yes/No
