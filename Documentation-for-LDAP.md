@@ -10,9 +10,10 @@ fr3d_ldap bundle require the php ext-ldap:
 
     sudo yum install php-ldap
 
-There are two additions to the parameters.yml file with this install:
+There are three additions to the parameters.yml file with this install:
 
+    ldap:              Yes/No
     ldap_host:         xxx.xxx.xxx
     ldap_port:         xxx
 
-There is also a twig global named ldap_auth (yes|no) that will hide the the Forgot Password? and the Change Password.
+Set Ldap to yes to turn on Ldap authentication on your install, and to no to turn it off. If you aren't using Ldap, set host and port to xxxx, as shown. Blank values will throw an error.  
