@@ -127,6 +127,9 @@ Once the file's downloaded, in the Terminal, run:
 
 (Note: the first open of the software will be extremely slow. Also, for some reason, I had to open NetBeans multiple times / restart Ubuntu to get NetBeans to open successfully for the first time. YMMV)
 
+
+**Configuring Marca**
+
 Once NetBeans is open, perform the following (leaving everything else as default):
 * Create new PHP projects from existing files in /var/www/marca
 * Set index file to web/app_dev.php
