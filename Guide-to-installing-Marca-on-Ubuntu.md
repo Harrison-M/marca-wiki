@@ -148,14 +148,14 @@ Next, fill in parameters.yml with the following information:
     database_port:     null
     database_name:     marca_db
     database_user:     john
-    database_password: nahtan0j
+    database_password: yourpassword
 
     mailer_transport:  smtp
     mailer_host:      localhost
     mailer_port:       25
     mailer_sender_address: john@gomarca.com
     mailer_user:       john
-    mailer_password:   nahtan0j
+    mailer_password:   yourpassword
     mailer_encryption:  tls
     from_email:        john@gomarca.com
 
