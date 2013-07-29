@@ -142,7 +142,8 @@ Once you've opened Marca in NetBeans, take the following steps:
 * Back in NetBeans, still in ``app/config``, copy security_fos_only.yml as security.yml
 
 Next, fill in parameters.yml with the following information:
-``parameters:
+ 
+    parameters:
     database_driver:   pdo_mysql
     database_host:     localhost
     database_port:     null
@@ -168,7 +169,7 @@ Next, fill in parameters.yml with the following information:
     app_name:          Marca
     ldap:              no
 
-    upload_path:       %kernel.root_dir%/../uploads/files``
+    upload_path:       %kernel.root_dir%/../uploads/files
 
 Next, run the following in the Terminal:
 ``sudo php composer.phar update``  
