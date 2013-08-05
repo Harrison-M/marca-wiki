@@ -6,7 +6,7 @@
 This commit makes some updates required for migrating to 2.3.
 This commit creates the ability to track a research consent by users:  DB changes.  Institution will now have a research boolean (yes this institution has a research consent or not) and a research integer for users (0 no response, 1 yes, 2, no).  After update, db admin should update these two db fields setting institution.research appropriately and marca_user.research = 0.
 
-**Add any notes on the dev process here with date and name.  New bits on top.**
+
 ***
 11/15/2012 by Ron
 Now using the spectrum jquery colorpicker
