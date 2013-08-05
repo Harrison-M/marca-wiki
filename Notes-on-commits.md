@@ -1,4 +1,4 @@
-**Add any notes on the commitss here with date and name.  New bits on top.**
+**Add any notes on the commits here with date and name.  New bits on top.**
 ***
 08/05/13 by Ron
 
