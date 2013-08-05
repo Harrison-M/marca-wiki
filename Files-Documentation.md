@@ -54,6 +54,3 @@ Graded Doc
 * insert rubric (course based but easily changeable)
 * feed essays next essay >
 
-
-## To be discussed
-Autosave process
