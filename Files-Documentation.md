@@ -46,7 +46,6 @@ DELETING a "parent" doc (one that has a review associated).  We think the best p
 * Add the functionality for deleting a parent doc as described above
 * Good UI for files with related entities
 * Cleanup controllers
-* batch functions: release
 
 Graded Doc
 * Instructor Grade Doc with Graded label (and notifications)
