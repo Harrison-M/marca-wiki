@@ -4,7 +4,7 @@
 Merge Rubric branch with 8 commits
 The main changes in the commits include a Rubric insert for edocs and is taken from the Page listing (there is now a switch to designate a page as a rubric.  Note that the insert does not allow for different rubrics at this point. 
 Also, this commit added an review upload (found under More in the file listing).
-Finally, a shot at fixing the scrolling in the editor on an ipad.
+Finally, a shot at fixing the scrolling in the editor on an ipad, but it didn't work (though I think fix is on the way from Ckeditor.
 ***
 08/05/13 by Ron
 
