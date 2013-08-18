@@ -1,5 +1,11 @@
 **Add any notes on the commits here with date and name.  New bits on top.**
 ***
+08/18/13
+Merge Rubric branch with 8 commits
+The main changes in the commits include a Rubric insert for edocs and is taken from the Page listing (there is now a switch to designate a page as a rubric.  Note that the insert does not allow for different rubrics at this point. 
+Also, this commit added an review upload (found under More in the file listing).
+Finally, a shot at fixing the scrolling in the editor on an ipad.
+
 08/05/13 by Ron
 
 **Research consent and updates for migrating to 2.3**
