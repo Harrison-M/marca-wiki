@@ -59,7 +59,7 @@ Next, you'll need to edit your php.ini file. From the terminal, run the followin
 ``sudo gedit /etc/php5/cli/php.ini``  
 Within gedit, search for ``;date.timezone``
 
-Delete the semicolon and set the value to "America/New_York" (or your timezone) so that the line of code looks like this:
+Delete the semicolon and set the value to "America/New_York" [(or your timezone)](http://php.net/manual/en/timezones.php) so that the line of code looks like this:
 
 ``date.timezone = America/New_York``
 
