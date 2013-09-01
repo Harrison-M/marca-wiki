@@ -41,8 +41,9 @@ Run the following to open MySQL:
 
 (Note: substitute your username for ``john`` throughout this guide)
 
-``CREATE USER 'john'@'localhost' IDENTIFIED BY 'mypass';``  
-``GRANT ALL PRIVILEGES ON *.* TO 'john'@'localhost' WITH GRANT OPTION;``
+``CREATE USER 'john'@'localhost' IDENTIFIED BY 'mypass';``
+``CREATE DATABASE 'marca';``
+``GRANT ALL PRIVILEGES ON marca.* TO 'john'@'localhost';``
 
 
 **Install PHP**
@@ -92,7 +93,17 @@ Then, run the following:
 
 ``cd /var/www``  
 ``sudo curl -sS https://getcomposer.org/installer | php``  
-``exit``  
+``exit``
+
+**Set up Marca site**
+
+Follow the [Linode Library's instructions](https://library.linode.com/hosting-website#sph_configuring-name-based-virtual-hosts) under "Configuring Name-based Virtual Hosts" replacing "example.com" with "marca.local"
+
+Then open your hosts file using ``sudo gedit /etc/hosts`` and add the following line below the line that reads ``127.0.0.1 localhost``:
+
+``127.0.0.1 marca.local``
+
+This will allow you to visit your development site by entering "marca.local" into your web browser.
 
 
 **Install Marca**
@@ -101,10 +112,10 @@ Hooray! This is the whole point of this exercise, right?
 
 In the terminal, run:
 
-``git clone https://github.com/calliopeinitiative/marca.git``  
-``sudo chown -R john:john marca``  
-``sudo curl -sS https://getcomposer.org/installer | php``  
-``sudo php composer.phar update``  
+``git clone https://github.com/calliopeinitiative/marca.git ~/public/marca.local/public``  
+``cd ~/public/marca.local/public``  
+``curl -sS https://getcomposer.org/installer | php``  
+``php composer.phar update``  
 
 (Note: don't worry about any error messages Composer throws at this point)
 
@@ -121,7 +132,7 @@ Then, in a web browser, go [here](https://netbeans.org/downloads/start.html?plat
 
 Once the file's downloaded, in the Terminal, run:
 
-``cd /Home/john/Downloads``  
+``cd /Home/john/Downloads`` 
 ``sudo chmod +x netbeans-7.3.1-php-linux.sh``  
 ``./netbeans-7.3.1-php-linux.sh``  
 
@@ -131,7 +142,7 @@ Once the file's downloaded, in the Terminal, run:
 **Configuring Marca**
 
 Once NetBeans is open, perform the following (leaving everything else as default):
-* Create new PHP projects from existing files in /var/www/marca
+* Create new PHP projects from existing files in ~/public/marca.local/public
 * Set index file to web/app_dev.php
 
 Also, you'll need to install the TWIG extensions (waiting on notes from Ron for this)
@@ -173,9 +184,7 @@ Next, fill in parameters.yml with the following information:
 
 Next, run the following in the Terminal:
 ``sudo php composer.phar update``  
-``app/console doctrine:database:create``  
 ``app/console doctrine:schema:update --force``  
-``sudo chmod -R 777 app/cache app/logs``  
 
 Next, install fixtures:
 
@@ -191,7 +200,6 @@ and run the following:
 
 ``use marca_db``  
 ``insert into institution (name,payment_type,semester_price) values ('University of Georgia','0','0');``  
-``sudo chmod -R 777 app/cache app/logs``  
 
 You can now login with the following:
 
